@@ -16,7 +16,7 @@ export default function Footer() {
   const { t,i18n } = useTranslation();
   const isArabic = i18n.language === "ar";
   return (
-    <div className={`w-full px-4 md:px-[120px] py-10 md:py-20 relative overflow-hidden ${isArabic ? 'text-right':''}`}>
+    <div className={`w-full px-4 md:px-[120px] py-10 md:pt-20 relative overflow-hidden ${isArabic ? 'text-right':''}`}>
       <div className="absolute left-0 top-[-350px] w-full -z-10 h-full">
         <Image src={bigLogo} alt="Container" />
       </div>
@@ -81,6 +81,17 @@ export default function Footer() {
             />
           </div>
         </div>
+      </div>
+      <div className=' w-full '>
+<div className=' w-full bg-[#D2D2D5] h-[2px] mt-10'>
+
+</div>
+<div className=' w-full flex items-center justify-center mt-3'>
+<p className=' text-[#6B6566] text-lg'>
+{t('Copyright')}
+
+</p>
+</div>
       </div>
     </div>
   );

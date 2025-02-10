@@ -14,7 +14,7 @@ export default function Everything() {
         isArabic ? "rtl" : "ltr"
       }`}
     >
-      <div className="w-full flex items-center justify-center flex-col">
+      <div className="w-full  flex items-center justify-center flex-col">
         <h1 className="text-base_white text-[40px] font-bold text-center">
           {t("everything_title")}
         </h1>
