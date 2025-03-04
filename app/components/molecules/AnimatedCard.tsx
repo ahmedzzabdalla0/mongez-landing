@@ -28,7 +28,7 @@ const AnimatedCard: React.FC<CardProps> = ({
 
   return (
     <div
-      className={`p-[4px] rounded-md w-full md:w-[750px] bg-[#D9D8D8] hover:bg-custom-gradient group h-auto md:h-[478px] `}
+      className={`p-[4px] rounded-md w-full md:w-[750px] mx-auto bg-[#D9D8D8] hover:bg-custom-gradient group h-auto md:h-[478px] `}
     
     >
       <div className={`px-4 md:px-8 w-full bg-custom-gradien2 pt-6 md:pt-8 relative overflow-hidden rounded-md h-full ${isArabic ?' flex-row-reverse':''}`}>
